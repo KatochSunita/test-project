@@ -1,0 +1,501 @@
+<!doctype html>
+<html>
+<head>
+    <title>Tailwind Course</title>
+  <!-- ... -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="tailwind.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+<body>
+  <!-- <nav class=" absolute w-full">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="flex justify-between">
+        <div class="flex space-x-7">
+          <div> -->
+            <!-- Website Logo -->
+            <!-- <a href="#" class="flex items-center py-4 px-2 filter grayscale  hover:grayscale-0">
+              <img src="./logo-dark.png" alt="Logo" class="mr-2 ">
+            </a>
+          </div>
+         
+         
+        </div> -->
+        <!-- Secondary Navbar items -->
+        <!-- <div class="hidden md:flex items-center space-x-3 ">
+          <a href="" class="py-4 px-2 text-green-500 border-b-4 border-green-500 font-semibold ">Home</a>
+          <a href="" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Services</a>
+          <a href="" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">About</a>
+          <a href="" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Contact Us</a>
+        </div> -->
+        <!-- Mobile menu button -->
+        <!-- <div class="md:hidden flex items-center">
+          <button class="outline-none mobile-menu-button">
+          <svg class=" w-6 h-6 text-gray-500 hover:text-green-500 "
+            x-show="!showMenu"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+        </div>
+      </div>
+    </div> -->
+    <!-- mobile menu -->
+    <!-- <div class="hidden mobile-menu">
+      <ul class="bg-white">
+        <li class="active"><a href="index.html" class="block text-sm px-2 py-4 text-white bg-green-500 font-semibold">Home</a></li>
+        <li><a href="#services" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Services</a></li>
+        <li><a href="#about" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">About</a></li>
+        <li><a href="#contact" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Contact Us</a></li>
+      </ul>
+    </div>
+    <script>
+      const btn = document.querySelector("button.mobile-menu-button");
+      const menu = document.querySelector(".mobile-menu");
+
+      btn.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+      });
+    </script>
+  </nav> -->
+ 
+
+  <!-- <header class="body-font position: absolute w-100 text-white">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+      
+        <img src="./logo-dark.png" alt="">
+      </a>
+      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center text-white">
+        <a class="mr-5 hover:text-gray-900">Home</a>
+        <a class="mr-5 hover:text-gray-900">About</a>
+        <a class="mr-5 hover:text-gray-900">Services</a>
+        <a class="mr-5 hover:text-gray-900">Teams</a>
+        <a class="mr-5 hover:text-gray-900">Faq</a>
+      </nav>
+      <button class="inline-flex items-center bg-red-600 text-white border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded-2xl text-base mt-4 md:mt-0">Button
+      </button>
+    </div>
+  </header> -->
+  <!-- <section class="text-gray-600 body-font banner-sec bg-no-repeat bg-cover" style="background-image: url(./01.jpg);">
+    <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+    
+      <div class="text-center lg:w-2/3 w-full">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Microdosing synth tattooed vexillologist</h1>
+        <p class="mb-8 leading-relaxed text-white">Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing tousled. Chambray dreamcatcher trust fund, kitsch vice godard disrupt ramps hexagon mustache umami snackwave tilde chillwave ugh. Pour-over meditation PBR&amp;B pickled ennui celiac mlkshk freegan photo booth af fingerstache pitchfork.</p>
+        <div class="flex justify-center">
+          <button class="inline-flex text-white bg-red-500 border-0 py-1 px-6 focus:outline-none hover:bg-red-600 rounded-2xl text-lg">Button</button>
+        
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- <section class="text-gray-600 body-font">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <div class="lg:flex-grow md:w-2/5 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium ">HELLO THERE AND WELCOME</h1>
+        <p class="mb-8 leading-relaxed">Our warehousing services are known nationwide to be one of the most reliable, safe and affordable</p>
+      
+        <p class="text-sm mt-2 mb-8 w-full">Neutra shabby chic ramps, viral fixie.</p>
+        <div class="flex lg:flex-row md:flex-col">
+         
+        
+        </div>
+      </div>
+      <div class="lg:max-w-lg lg:w-full md:w-3/5 w-3/5">
+        <div class="flex flex-row ...">
+          <div class="text-center w-3/6 pr-3 -mt-6">
+            <div class="inner-box shadow-xl py-9 px-6">
+            <h3 class="py-3">Hello column</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. dicta facere ea consectetur.</p>
+          </div>
+          </div>
+          <div class="text-center w-3/6 pl-3">
+            <div class="inner-box shadow-xl py-9 px-6 ">
+            <h3 class="py-3">Hello column</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. dicta facere ea consectetur.</p>
+          </div>
+          </div>
+        
+        </div>
+        <div class="flex flex-row ...">
+          <div class="text-center w-3/6 pr-3 -mt-6">
+            <div class="inner-box shadow-lg py-9 px-6">
+            <h3 class="py-3">Hello column</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. dicta facere ea consectetur.</p>
+          </div>
+          </div>
+          <div class="text-center w-3/6 pl-3">
+            <div class="inner-box shadow-xl py-9 px-6 ">
+            <h3 class="py-3">Hello column</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. dicta facere ea consectetur.</p>
+          </div>
+          </div>
+        
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="text-yellow-900">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae possimus ducimus perferendis in autem. Vitae maxime ad, veniam vel harum alias saepe, mollitia laboriosam optio quisquam accusantium labore corrupti cumque?</div> -->
+
+
+
+  <!-- <div class="row flex flex-wrap" >
+    <div class="demo-col w-2/4 p-10 text-lg">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam ullam itaque suscipit rem. Animi doloremque eveniet magni iste suscipit corporis ipsum architecto veritatis dicta, cupiditate voluptate quasi! Ullam, tempore accusamus?</div>
+    <div class="demo-col w-2/4 p-10 text-lg">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam ullam itaque suscipit rem. Animi doloremque eveniet magni iste suscipit corporis ipsum architecto veritatis dicta, cupiditate voluptate quasi! Ullam, tempore accusamus?</div>
+  </div> -->
+
+
+<!-- ********************************************* -->
+<!-- <section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="text-center mb-20 ">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Raw Denim Heirloom Man Braid</h1>
+      <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug.</p>
+      <div class="flex mt-6 justify-center">
+        <div class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
+      </div>
+    </div>
+    <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6 justify-between">
+     
+      <div class=" md:w-1/3 service-box ">
+        <div class="flex flex-col text-center items-center shadow-xl p-10 transition delay-150 duration-300 ease-in-out hover:shadow-2xl mx-2 hover:text-indigo hover:border-b-2 hover:border-fuchsia-600">
+        <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+          </svg>
+        </div>
+        <div class="flex-grow  ">
+          <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Shooting Stars</h2>
+          <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard.</p>
+         
+        </div>
+      </div>
+      </div>
+     
+      <div class=" md:w-1/3 service-box  ">
+        <div class="flex flex-col text-center items-center  shadow-xl p-10 transition delay-150 duration-300 ease-in-out hover:shadow-2xl mx-2 hover:text-indigo">
+        <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+          </svg>
+        </div>
+        <div class="flex-grow  ">
+          <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Shooting Stars</h2>
+          <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard.</p>
+         
+        </div>
+      </div>
+      </div>
+   
+      <div class=" md:w-1/3 service-box group">
+        <div class="flex flex-col text-center items-center   shadow-xl p-10 transition delay-150 duration-300 ease-in-out hover:shadow-2xl mx-2 hover:text-indigo">
+        <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+          </svg>
+        </div>
+        <div class="flex-grow  group-hover:text-yellow-300 transition delay-100 duration-100">
+          <h2 class="text-gray-900 text-lg title-font font-medium mb-3 group-hover:text-yellow-300">Shooting Stars</h2>
+          <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard.</p>
+         
+        </div>
+      </div>
+      </div>
+    </div>
+    <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+  </div>
+</section> -->
+<!-- <section class="bg-no-repeat bg-cover relative mb-10" style="background-image: url(./photo-1631637407252-0938849c20d5.jpg); ">
+  <div class="overlay-div absolute w-full h-full bg-blue-200 bg-opacity-40"></div>
+  <div class="main-div flex">
+  <div class="content-div">
+    <h1>main-heading</h1>
+    <p class=" text-purple-900">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem consequatur perspiciatis, aut debitis iusto deserunt voluptatum voluptatem expedita aliquam laboriosam possimus ullam, odit maiores! Perferendis autem beatae dignissimos minima veritatis.
+    </p>
+  </div>
+  <div class="image-div relative">
+    <img src="./girl1.jpg" alt="girl-image">
+  </div>
+</div>
+</section>
+<section class=" grid lg:grid-cols-3 gap-5 sm:grid-cols-1">
+<div class="box1">
+  <h2>hello box</h2>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, reprehenderit? Sapiente voluptatum beatae saepe? Molestias consectetur asperiores assumenda tempora, doloribus officia corporis nostrum molestiae, officiis ex expedita iusto enim quos!</p>
+</div>
+<div class="box1">
+  <h2>hello box</h2>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, reprehenderit? Sapiente voluptatum beatae saepe? Molestias consectetur asperiores assumenda tempora, doloribus officia corporis nostrum molestiae, officiis ex expedita iusto enim quos!</p>
+</div>
+<div class="box1">
+  <h2>hello box</h2>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, reprehenderit? Sapiente voluptatum beatae saepe? Molestias consectetur asperiores assumenda tempora, doloribus officia corporis nostrum molestiae, officiis ex expedita iusto enim quos!</p>
+</div>
+</section>
+  <footer class="mt-9">
+    <div class="container max-w-6xl mx-auto px-4">
+    <div class="footer-row grid grid-cols-4">
+      <div class="logo-col">
+        <img src="./logo-dark.png" alt="">
+      </div>
+      <div class="">
+        <ul>
+          <li>
+            link1
+          </li>
+          <li>
+            link1
+          </li>
+          <li>
+            link1
+          </li>
+        </ul>
+      </div>
+      <div class="">
+        <ul>
+          <li>
+            link1
+          </li>
+          <li>
+            link1
+          </li>
+          <li>
+            link1
+          </li>
+        </ul>
+      </div>
+      <div class="">
+        <ul>
+          <li>
+            link1
+          </li>
+          <li>
+            link1
+          </li>
+          <li>
+            link1
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+    </footer> -->
+    <!--************************************Table layout***************************************-->
+    <!-- <div class="conatiner max-w-6xl px-4 mx-auto my-10">
+    <table class="table-auto border-collapse	border-2 border-indigo-600">
+      <thead>
+        <tr class="border-collapse	border-2 border-indigo-600">
+          <th class="border-2 border-indigo-600">Title</th>
+          <th class="border-2 border-indigo-600">Author</th>
+          <th class="border-2 border-indigo-600">Views</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="border-collapse	border-2 border-indigo-600">
+          <td class="col-span-2 text-center px-4">Intro to CSS Frameworks and Tools and the Impact on Design</td>
+          <td class=" text-center">Adam</td>
+          <td class=" text-center">858</td>
+        </tr>
+        <tr class="bg-red-300 border-collapse	border-2 border-indigo-600 ">
+          <td class="border-r-2 border-indigo-600 p-3 w-1/4">A Long and Winding Tour of the History of UI Frameworks and Tools and the Impact on Design</td>
+          <td class=" text-center">Adam</td>
+          <td class=" text-center">112</td>
+        </tr>
+        <tr>
+          <td class=" text-center">Intro to JavaScript</td>
+          <td class=" text-center">Chris</td>
+          <td class=" text-center">1,280</td>
+        </tr>
+      </tbody>
+    </table>
+  </div> -->
+  <!-- new section -->
+  <!-- <div class="container max-w-6xl px-3 mx-auto mt-10">
+    <div class="row flex flex-wrap -mx-3">
+      <div class="col-md-4 md:w-4/12 px-3">
+        <div class="sidebar-wrapper">
+          <div class="sidebar-box bg-yellow-700 p-5 fixed w-72 max-h-72  overflow-x-hidden overscroll-y-auto">
+            <h3>hello sidebar</h3>
+            <ul>
+              <li>link1</li>
+              <li>link1</li>
+              <li>link1</li>
+              <li>link1</li>
+              <li>link1</li>
+              <li>link1</li>
+              <li>link1</li>
+              <li>link1</li>
+              <li>link1</li>
+              <li>link1</li>
+              <li>link1</li>
+              <li>link last</li>
+
+
+            </ul>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-md-8 md:w-8/12 px-3">
+        <div class="row flex flex-wrap">
+          <div class="col-12 col-md-4 md:w-4/12 w-full px-3 bg-red-300 text-white mb-5">
+            <div class="col-inner p-5">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic saepe quaerat rerum provident cupiditate voluptatum sit deserunt nesciunt quo at! Vitae amet dolorem aperiam voluptates architecto atque aspernatur nobis blanditiis.
+      
+          </p>
+        </div>
+        </div>
+          <div class="col-12 col-md-4 md:w-4/12 w-full px-3 bg-red-400 text-white mb-5">
+            <div class="col-inner p-5">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic saepe quaerat rerum provident cupiditate voluptatum sit deserunt nesciunt quo at! Vitae amet dolorem aperiam voluptates architecto atque aspernatur nobis blanditiis.
+          
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 md:w-4/12 w-full px-3 bg-red-600 text-white mb-5">
+            <div class="col-inner p-5">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic saepe quaerat rerum provident cupiditate voluptatum sit deserunt nesciunt quo at! Vitae amet dolorem aperiam voluptates architecto atque aspernatur nobis blanditiis.
+          
+              </p>
+            </div>
+          </div>
+         
+      
+        </div>
+        <div class="row flex flex-wrap">
+          <div class="col-12 col-md-4 md:w-4/12 w-full px-3 bg-red-300 text-white mb-5">
+            <div class="col-inner p-5">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic saepe quaerat rerum provident cupiditate voluptatum sit deserunt nesciunt quo at! Vitae amet dolorem aperiam voluptates architecto atque aspernatur nobis blanditiis.
+      
+          </p>
+        </div>
+        </div>
+          <div class="col-12 col-md-4 md:w-4/12 w-full px-3 bg-red-400 text-white mb-5">
+            <div class="col-inner p-5">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic saepe quaerat rerum provident cupiditate voluptatum sit deserunt nesciunt quo at! Vitae amet dolorem aperiam voluptates architecto atque aspernatur nobis blanditiis.
+          
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 md:w-4/12 w-full px-3 bg-red-600 text-white mb-5">
+            <div class="col-inner p-5">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic saepe quaerat rerum provident cupiditate voluptatum sit deserunt nesciunt quo at! Vitae amet dolorem aperiam voluptates architecto atque aspernatur nobis blanditiis.
+          
+              </p>
+            </div>
+          </div>
+         
+      
+        </div>
+      </div>
+    </div>
+    
+ 
+</div> -->
+<div class="container max-w-6xl px-3 mx-auto mt-32">
+  <div class="sec-heading  text-center pb-8">
+    <h2 class=" font-bold text-3xl uppercase">Section heading-1</h2>
+  </div>
+  <div class=" row grid md:grid-cols-3 grid-cols-1 gap-3  ">
+    <div class="bg-indigo-300 p-5  transition duration-1000 ease-in-out hover:bg-pink-300 group">
+      <div class="content-div transition duration-700 ease-in-out  group-hover:text-white ">
+     <h3 class="text-2xl font-bold capitalize">column heading</h3>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, itaque nemo voluptatibus ea at esse reiciendis iure soluta rem cum aliquid unde? Beatae sit atque molestias itaque fuga temporibus nesciunt!</p>
+    </div>
+    </div>
+    <div class="bg-indigo-400 p-5 hover:bg-pink-600 group">
+      <div class="content-div group-hover:text-white">
+      <h3 class="text-2xl font-bold capitalize" >column heading</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, itaque nemo voluptatibus ea at esse reiciendis iure soluta rem cum aliquid unde? Beatae sit atque molestias itaque fuga temporibus nesciunt!</p>
+    </div>
+    </div>
+    <div class="bg-indigo-500 p-5">
+      <h3 class="text-2xl font-bold capitalize">column heading</h3>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, itaque nemo voluptatibus ea at esse reiciendis iure soluta rem cum aliquid unde? Beatae sit atque molestias itaque fuga temporibus nesciunt!</p>
+    </div>
+    
+  </div>
+  <div class="btn-box text-center mt-7">
+    <a class=" bg-pink-600 text-white px-5 py-3 inline-block cursor-pointer uppercase rounded-3xl animate-pulse">View more</a>
+  </div>
+  <!-- **************************************************************** -->
+  <div class="sec-heading text-center pb-8 pt-28">
+<h2 class="font-bold text-3xl uppercase">Section heading-2</h2>
+  </div>
+  <div class="row grid lg:grid-cols-2 grid-cols-1 items-center gap-10 mb-28">
+    <div class="img-col mb-5">
+      <img src="./features.png" alt="">
+    </div>
+    <div class="text-col">
+      <div class="row grid sm:grid-cols-2 grid-cols-1 gap-3">
+        <div class="feature-box flex shadow-lg p-6 rounded-lg group cursor-pointer">
+          <div class="icon-box  group-hover:text-white">
+            <i class="fas fa-check p-2 bg-blue-200 transition delay-100 group-hover:bg-blue-600"></i>
+          </div>
+          <div class="text-box ml-5">
+            <h3>Eos aspernatur rem</h3>
+          </div>
+        </div>
+        <div class="feature-box flex shadow-lg p-6 rounded-lg group cursor-pointer">
+          <div class="icon-box group-hover:text-white">
+            <i class="fas fa-check p-2 bg-blue-200 transition delay-100 group-hover:bg-blue-600"></i>
+          </div>
+          <div class="text-box ml-5">
+            <h3>Eos aspernatur rem</h3>
+          </div>
+        </div>
+        <div class="feature-box flex shadow-lg p-6 rounded-lg group cursor-pointer">
+          <div class="icon-box group-hover:text-white">
+            <i class="fas fa-check p-2 bg-blue-200 transition delay-100 group-hover:bg-blue-600"></i>
+          </div>
+          <div class="text-box ml-5">
+            <h3>Eos aspernatur rem</h3>
+          </div>
+        </div>
+        <div class="feature-box flex shadow-lg p-6 rounded-lg group cursor-pointer">
+          <div class="icon-box group-hover:text-white">
+            <i class="fas fa-check p-2 bg-blue-200 transition delay-100 group-hover:bg-blue-600"></i>
+          </div>
+          <div class="text-box ml-5">
+            <h3>Eos aspernatur rem</h3>
+          </div>
+        </div>
+        <div class="feature-box flex shadow-lg p-6 rounded-lg group cursor-pointer">
+          <div class="icon-box group-hover:text-white">
+            <i class="fas fa-check p-2 bg-blue-200 transition delay-100 group-hover:bg-blue-600"></i>
+          </div>
+          <div class="text-box ml-5">
+            <h3>Eos aspernatur rem</h3>
+          </div>
+        </div>
+        <div class="feature-box flex shadow-lg p-6 rounded-lg group cursor-pointer">
+          <div class="icon-box group-hover:text-white">
+            <i class="fas fa-check p-2 bg-blue-200 transition delay-100 group-hover:bg-blue-600"></i>
+          </div>
+          <div class="text-box ml-5">
+            <h3>Eos aspernatur rem</h3>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+<!-- *************************************************************************** -->
+<div class="sec-hedaing text-center pb-8">
+  <h2 class="font-bold text-3xl uppercase">section haeding-3</h2>
+</div>
+</div>
+</body>
+</html>
